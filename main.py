@@ -1,2 +1,4 @@
-# Print the greeting below
-print("Hello, Ship That Code!")
+name = input()
+age = int(input())
+# Print the greeting using an f-string or string concatenation
+print(f"Hi, {name}! You are {age} years old.")
