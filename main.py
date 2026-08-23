@@ -1,7 +1,4 @@
-year = int(input())
-
-# A year is leap if divisible by 4 AND (not divisible by 100 OR divisible by 400)
-if year % 4 == 0 and (year % 100 != 0 or year % 400 == 0):
-    print("leap")
-else:
-    print("not leap")
+n = int(input())
+# Print the multiplication table from 1 to 10
+for i in range(1,11):
+    print(f"{n} x {i} = {n*i}")
