@@ -1,17 +1,7 @@
-score = int(input())
-# Print the letter grade for this score
+year = int(input())
 
-if score > 90:
-    print('A')
-
-if score < 90 and score >= 80:
-    print('B')
-
-if score < 80 and score >= 70:
-    print('C')
-
-if score < 70 and score >= 60:
-    print('D')
-
-if score < 60:
-    print('F')
+# A year is leap if divisible by 4 AND (not divisible by 100 OR divisible by 400)
+if year % 4 == 0 and (year % 100 != 0 or year % 400 == 0):
+    print("leap")
+else:
+    print("not leap")
