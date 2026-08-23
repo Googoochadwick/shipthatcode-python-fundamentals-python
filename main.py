@@ -1,5 +1,10 @@
-# Read two numbers and print their sum.
-a = input()
-b = input()
-# Convert and add
-print(int(a)+int(b))
+num = int(input())
+# Check the sign and print the matching word
+if num > 0:
+    print("positive")
+
+elif num < 0:
+    print("negative")
+
+elif num == 0:
+    print("zero")
