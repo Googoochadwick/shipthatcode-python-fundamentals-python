@@ -1,10 +1,17 @@
-num = int(input())
-# Check the sign and print the matching word
-if num > 0:
-    print("positive")
+score = int(input())
+# Print the letter grade for this score
 
-elif num < 0:
-    print("negative")
+if score > 90:
+    print('A')
 
-elif num == 0:
-    print("zero")
+if score < 90 and score >= 80:
+    print('B')
+
+if score < 80 and score >= 70:
+    print('C')
+
+if score < 70 and score >= 60:
+    print('D')
+
+if score < 60:
+    print('F')
